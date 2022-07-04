@@ -58,3 +58,6 @@ h1 {
 #beginner-developer {
   border-left: 7px solid blue;
 }
+footer p {
+  text-align: center;
+}
