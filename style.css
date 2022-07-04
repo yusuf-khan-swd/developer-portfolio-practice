@@ -1,0 +1,7 @@
+.flexible-area {
+  display: flex;
+  width: 80%;
+}
+.flexible-area img {
+  width: 50px;
+}
