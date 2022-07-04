@@ -1,37 +1,32 @@
 
-
 body {
-  margin: 0;
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
-section {
-  margin-bottom: 150px;
-}
-.introduction-area {
-  background-image: url(./images/top-banner.png);
-  background-repeat: no-repeat;
+h1 {
+  font-size: 50px;
 }
 .flexible-area {
   display: flex;
+  margin-bottom: 150px;
+}
+.half-width {
+  width: 40%;
+  padding-left: 5%;
+}
+.half-width img {
   width: 80%;
-  margin-left: 5%;
 }
-.flexible-area img {
-  width: 100%;
-}
-.flexible-area span {
+.name-color {
   color: orange;
-}
-.flexible-area h1 {
-  font-size: 50px;
-}
-.flexible-area h3 {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: radial-gradient(orange, tomato);
   padding: 10px 40px;
-  color: white;
+  border: 1px solid black;
   border-radius: 5px;
+  color: white;
+  font-weight: 600;
 }
